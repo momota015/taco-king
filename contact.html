@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="noindex, nofollow" />
+  <meta name="description" content="JavaScriptの作品です" />
+  <title>TACO KING</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <!-- フォント -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <!-- 見出し用 -->
+  <link href="https://fonts.googleapis.com/css2?family=Titan+One:wght@400;700&display=swap" rel="stylesheet" />
+
+  <!-- 本文用 -->
+  <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@400;700&display=swap" rel="stylesheet" />
+</head>
+
+<body class="contact-page">
+  <header>
+    <div class="menu_bar">
+      <div class="menu_top">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html#news">News</a></li>
+          <li><a href="index.html#acces">Access</a></li>
+        </ul>
+
+        <button class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+
+      <!-- Open Menu -->
+      <nav id="nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="index.html#news">News</a></li>
+          <li><a href="index.html#acces">Access</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="haikei">
+      <div class="wave">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+          <path fill="#ffe970" fill-opacity="1"
+            d="M0,192L60,176C120,160,240,128,360,144C480,160,600,224,720,245.3C840,267,960,245,1080,202.7C1200,160,1320,96,1380,64L1440,32L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z">
+          </path>
+        </svg>
+      </div>
+    </div>
+    <div class="page-title">
+      <h2>Contact</h2>
+      <p>お問い合わせ</p>
+    </div>
+
+    <section class="contact-link">
+      <form>
+        <label for="name"><span class="en">Name</span> お名前</label>
+        <input type="text" id="name" name="user_name" />
+        <label for="email"><span class="en">Email</span>メールアドレス</label>
+        <input type="email" id="email" name="user_email" />
+        <label for="tel"><span class="en">Phone</span>電話番号</label>
+        <input type="tel" id="tel" name="user_tel" />
+        <label for="message"><span class="en">Message</span>お問い合わせ内容</label>
+        <textarea id="message" name="user_message"></textarea>
+        <button type="submit">Submit</button>
+      </form>
+
+      <div class="wave">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+          <path fill="#ffb11b" fill-opacity="1"
+            d="M0,64L120,80C240,96,480,128,720,133.3C960,139,1200,117,1320,106.7L1440,96L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z">
+          </path>
+        </svg>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="links">
+      <div class="logo">
+        <img src="images/icon.png" alt="TACO KING" />
+      </div>
+
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#access">Access</a></li>
+      </ul>
+
+      <div class="sns">
+        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-line"></i></a>
+      </div>
+    </div>
+
+    <div class="copyright">
+      <div><small>&copy; Kadai</small></div>
+    </div>
+  </footer>
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script> -->
+  <script src="script.js"></script>
+</body>
+
+</html>
