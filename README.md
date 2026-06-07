@@ -23,12 +23,6 @@ https://momota015.github.io/taco-king/
 - スムーズなスクロール演出
 - モダンなランディングページデザイン
 
-## Technologies
-
-- HTML
-- CSS
-- JavaScript
-
 ## Challenges
 
 - タコス画像のサイズ変更時に食材との距離が自然に見えるよう調整
@@ -36,3 +30,9 @@ https://momota015.github.io/taco-king/
 - メニュー画像のスライドショー機能を実装
 - スクロール位置に応じて要素がふわっと表示されるアニメーションを実装
 - ハンバーガーメニューを実装し、操作性を向上
+
+## Technologies
+
+- HTML
+- CSS
+- JavaScript
